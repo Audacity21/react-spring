@@ -15,7 +15,7 @@ const Signup = () => {
     e.preventDefault();
     UserService.saveUser(user)
       .then((res) => {
-        alert("User registered successfully");
+        alert("User registered successfully!");
       })
       .catch((err) => {
         console.log(err);
